@@ -23,6 +23,6 @@ end
 
 
 def initialize(arguments)
-  arguments.each {|key,value| self.send(("#key"))}
+  arguments.each {|key,value| self.send(("#{key}="),value)}
 end 
 end
