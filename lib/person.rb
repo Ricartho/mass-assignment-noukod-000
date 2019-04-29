@@ -20,4 +20,9 @@ def initialize(name:, birthday:, hair_color:,eye_color:,height:,weight:,handed:,
         @pant_width = pant_width
         @pant_length = pant_length
 end
+
+
+def initialize(arguments)
+  arguments.each
+end 
 end
